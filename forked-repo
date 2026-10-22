@@ -1,7 +1,3 @@
-curl -s https://api.github.com/repos/mansichandwad24-dot/interestCalculator | grep -E '"full_name"|"...
-
-"full_name": "mansichandwad24-dot/interestCalculator",
-  "fork": true,
-  "parent": {
-    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
-  }
+curl -s https://api.github.com/repos/mansichandwad24-dot/mcino-Introduction-to-Git-a
+nd-GitHub | jq -r '.parent.clone_url'
+https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
